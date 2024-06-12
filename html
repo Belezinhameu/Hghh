@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes e Livros</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Filmes e Livros</h1>
+
+        <div class="item">
+            <h2>Filmes</h2>
+            <div class="media-item" onclick="toggleSummary('summary1')">
+                <img src="filme1.jpg" alt="Filme 1">
+                <p id="summary1" class="summary">Sumário do Filme 1.</p>
+            </div>
+            <div class="media-item" onclick="toggleSummary('summary2')">
+                <img src="filme2.jpg" alt="Filme 2">
+                <p id="summary2" class="summary">Sumário do Filme 2.</p>
+            </div>
+            <div class="media-item" onclick="toggleSummary('summary3')">
+                <img src="filme3.jpg" alt="Filme 3">
+                <p id="summary3" class="summary">Sumário do Filme 3.</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <h2>Livros</h2>
+            <div class="media-item" onclick="toggleSummary('summary4')">
+                <img src="livro1.jpg" alt="Livro 1">
+                <p id="summary4" class="summary">Sumário do Livro 1.</p>
+            </div>
+            <div class="media-item" onclick="toggleSummary('summary5')">
+                <img src="livro2.jpg" alt="Livro 2">
+                <p id="summary5" class="summary">Sumário do Livro 2.</p>
+            </div>
+            <div class="media-item" onclick="toggleSummary('summary6')">
+                <img src="livro3.jpg" alt="Livro 3">
+                <p id="summary6" class="summary">Sumário do Livro 3.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
